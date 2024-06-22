@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Hello-Yes-No-Thanks-Please-ILU', 'ILoveYou', 'No', 'Please', 'Thanks', 'Yes']
+
+roboflow:
+  workspace: shubham-gonjari
+  project: sign-language-detection-bj1vl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shubham-gonjari/sign-language-detection-bj1vl/dataset/1
